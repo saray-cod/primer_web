@@ -1,0 +1,33 @@
+<!DOCTYPE htmL>
+<section>
+  <h2>formulario de contacto!<h2>
+    <hr>
+  <form action="/enviar mensaje" method="POST">
+    <p>
+      <label for="nombre">Nombres:</label><br>
+      <input type="text" id="Nombres" name="Nombre_usuario" required>
+      </p>
+    <p>
+      <label for="apellidos">Apellidos:</label><br>
+      <input type="text" id="apellidos" name="Apellido_usuario" required>
+      </p>
+    <p>
+      <label for="email">Correo Electronico:</label><br>
+      <input type="text" id="email" name="email_usuario" required>
+      </p>
+      <p>
+        <label for="telefono">telefono:</label><br>
+        <input type="text" id="telefono" name="telefono_usuario" required>
+        <small>(maximo de 10 digitos)</small>
+      </p>
+      <p>
+        <label>Estado:</label><br>
+        <input type="radio" id="estado_f" name="estado_usuario" value="poser" required>
+        <label for="Estado">soy un poser</label><br>
+        <input type="radio" id="estado_m" name="estado_usuario" value="tengo conocimiento">
+        <label for="Estado">tengo conocimiento</label><br>
+        <input type="radio" id="estado_otro" name="estado usuario_usuario" value="otro">
+        <label for="estado_otro">se  mucho de rock pero quiero mas</label>
+        </p>
+        <button type="submit">enviar datos</button>
+      </section>
