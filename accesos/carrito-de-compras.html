@@ -1,0 +1,51 @@
+<section id="carrito-de-compras">
+  <h2>carrito de compras</h2>
+    <hr>
+  <p>tu carrito de compras esta vacio</p>
+  <table border="1">
+    <tr>
+        <th>producto</th>
+        <th>imagen</th>
+        <th>precio</th>
+    </tr>
+    <tr>
+        <th>info archivo rata blanca</th>
+        <th><img src="recursos/Captura de pantalla 2025-11-23 214408.png" alt="rata blanca" width="100"></th>
+        <th>$1.000</th>
+        <td><button>Agregar al carrito</button></td>
+    </tr>
+    <tr>
+        <th>info archivo heroes del silencio</th>
+        <th><img src="recursos/Captura de pantalla 2025-11-23 214629.png" alt="heroes del silencio" width="100"></th>
+        <th>$1.200</th>
+        <td><button>Agregar al carrito</button></td>
+    </tr>
+    <tr>
+        <th>info archivo mago de oz</th>
+        <th><img src="recursos/Captura de pantalla 2025-11-23 214700.png" alt="mago de oz" width="100"></th>
+        <th>$1.500</th>
+        <td><button>Agregar al carrito</button></td>
+    </tr>
+  </table>
+</section>
+
+<section id="pago">
+    <h2>metodo de pago:</h2>
+        <hr>
+    <form action="/procesar pago" method="POST">
+        <p>
+            <label for="tarjeta">numero de tarjeta:</label><br>
+            <input type="text" id="tarjeta" name="numero_tarjeta" required>
+        </p>
+        <p>
+            <label for="vencimiento">fecha de vencimiento:</label><br>
+            <input type="text" id="vencimiento" name="fecha_vencimiento" required>
+        </p>
+        <p>
+            <label for="cvv">cvv:</label><br>
+            <input type="text" id="cvv" name="codigo_cvv" required>
+        </p>
+        <button type="submit">pagar ahora</button>
+    </form>
+</section>
+
